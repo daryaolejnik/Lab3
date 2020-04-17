@@ -19,7 +19,6 @@ public class ConstFunction implements Function {
         return 0;
     }
 
-
 }
 
 

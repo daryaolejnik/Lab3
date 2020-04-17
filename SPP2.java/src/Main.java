@@ -18,12 +18,7 @@ public class Main {
         do {
             try {
                 System.out.println(ANSI_YELLOW +
-                        "        Menu           " + "\n" +
-                        "-------------------------" + "\n" +
-                        "| 0 - Exit               |" + "\n" +
-                        "-------------------------" + "\n" + ANSI_PURPLE +
-                        "| 1 - Derivative         |" + "\n" +
-                        "-------------------------" + "\n");
+                        "Menu: " + "\n" + "0 - Exit" + "\n" + "1 - Derivative" + "\n");
                 choice = scanner.nextInt();
                 switch (choice) {
                     case 0: {
